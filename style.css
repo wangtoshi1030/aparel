@@ -1,0 +1,542 @@
+@charset "UTF-8";
+
+/* body{
+    overflow-x: hidden;
+} */
+.container{
+    width: 100%;
+}
+
+#hight{
+    display: flex;
+}
+
+#top{
+    /* background-color: gray; */
+    width: 40%;
+}
+h1{
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.sidebar{
+    text-align: center;
+}
+#top1{
+    width: 100%
+}
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+#migi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.more{
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.slick img{
+    width: 100%;
+    height: 100vh;
+}
+
+/* section2始まり */
+#book img{
+    width: 200px;
+    height: 300px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.aa input{
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.between{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: rgb(69, 63, 63);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+}
+.oo{
+    display: flex;
+}
+
+
+.bb{
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+.away{
+    margin-right:30px;
+}
+
+
+.modal-btn{
+    border: 1px solid;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    /* margin-right: 50px; */
+}
+
+
+.modal-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.modal-place{
+    border: 1px solid;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal-place:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+#book{
+    display: flex;
+    justify-content: space-around;
+    height:400px;
+    padding: 120px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+/* section2終わり */
+
+
+
+/* section3 */
+
+#diffrent-other{
+    background-color: rgb(232, 232, 232);
+
+}
+
+
+h3{
+    text-align: center;
+    font-size: 60px;
+}
+
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wrap img{
+    /* padding: 30px; */
+    width: 300px;
+    height: 350px;
+}
+
+#wrap li{
+    height: 100%;
+    width: 300px;
+    margin: 0 30px 0 30px;
+}
+#wrap{
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+
+h4{
+    font-size: 25px;
+}
+
+/* section3終わり */
+
+
+
+/* section4 */
+
+#how-long{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.border{
+    margin-bottom: 80px;
+}
+
+h5{
+    font-size: 50px;
+    display: flex;
+}
+h5 p{
+    font-size: 20px;
+    padding: 25px;
+}
+
+.right{
+    padding: 25px;
+}
+
+.left .border{
+    /* border: 1px solid;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    transition:  all 0.3s; */
+
+
+    width:30%;
+    padding: 15px;
+    text-align: center;
+    border-radius:5px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    transition:all 0.3s;
+    position:relative;
+    z-index:2;
+}
+
+.border:hover,
+.border:active{
+    color: rgb(0, 0, 0);
+}
+
+.border:after{
+    width:0%;
+    height:100%;
+    border-radius:5px;
+    background-color:rgb(215, 215, 215);
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    transition:all 0.3s;
+    z-index:-1;
+}
+
+.border:hover:after,
+.border:active:after{
+    border:2px solid rgb(255, 255, 255);
+    width:100%;
+}
+
+.front{
+    display: flex;
+    justify-content: center;
+}
+
+
+.front img{
+    width: 200px;
+    height: 300px;
+}
+#yes{
+    margin-bottom: 100px;
+}
+
+/* section4終わり */
+
+
+
+
+/* section5 */
+
+.change{
+    background-color: rgb(232, 232, 232);
+
+}
+
+#lounge{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6{
+    font-size: 50px;
+}
+
+h6  p{
+    font-size: 15px;
+    border: 1px solid;
+    text-align: center;
+    width: 30%;
+    padding: 25px;
+    margin-top: 30px;
+    background-color: gray;
+    transition: all 1s;
+}
+
+h6 p:hover{
+    border-radius: 100%;
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+
+h6 a{
+    color: white;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.last img{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+/* section5終わり */
+
+
+
+/* section6 */
+#one-of-the-page{
+    margin-top: 100px;
+}
+
+#one-of-the-page .center{
+    text-align: center;
+    font-size: 60px;
+}
+
+.size img{
+    height: 200px;
+    width: 200px;
+}
+
+.size a{
+    margin-bottom: 50px;
+}
+
+.yanse{
+    color: gray;
+    font-size:15px;
+}
+
+.dade{
+    font-size: 25px;
+}
+
+.letter{
+    width: 250px;
+}
+
+.one{
+    /* height: 300px; */
+    /* width: 300px; */
+    display: flex;
+}
+
+.size{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news p{
+    padding-left: 40px;
+}
+
+.push{
+    border: 1px solid;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.xiang-zi{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* section6終わり */
+
+
+/* section7 */
+.tittle{
+    text-align: center;
+}
+
+.ranking{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.ranking img{
+    width: 200px;
+    height: 260px;
+}
+
+.tidy{
+    width: 200px;
+}
+
+.italy{
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+
+
+
+.kok:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+
+
+/* section７終わり */
+
+
+/* section8 */
+.quan{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img6/横ひろいーmodel.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quan .btn-zuihou{
+    border: 1px solid;
+    width: 200px;
+    margin-top: 50px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.concept p{
+    font-size: 70px;
+    color: rgb(223, 223, 223);
+}
+
+.concept a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* section８終わり */
+
+
+/* footer1 */
+
+#for-top{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-for-top{
+    border: 1px solid;
+    width: 200px;
+}
+
+
+.btn-for-top:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* footer1終わり */
+
+
+
+/* footer2 */
+#sns{
+    text-align: end;
+    margin: 100px;
+}
+
+.finally a{
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+
+.sns1:hover{
+    color: rgb(255, 77, 106);
+}
+
+.sns2:hover{
+    color: rgb(9, 9, 250);
+}
+
+.sns3:hover{
+    color: aqua;
+}
+
+
+/* footer2終わり */
+
+
+
+
+.fade {
+    opacity: 0;
+    transform : translate(10px, 10px);
+    transition: 3000ms;
+}
+.fade.scrollin{
+    opacity: 1;
+    transform: translate(0, 0);
+}
